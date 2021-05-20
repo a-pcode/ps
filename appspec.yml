@@ -1,5 +1,6 @@
 version: 0.0
+os: linux
 artifacts:
   files:
-    - appspec.yml
-    - index.html
+    - source: /
+    - destination: /www/var/html/
